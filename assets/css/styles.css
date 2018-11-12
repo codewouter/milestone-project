@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Colours*/
+
+.ui-menu-color-home {
+    background-color: #fafafa;
+}
+
+.ui-menu-color-music {
+    background-color: #fafafa;
+}
+
+.ui-menu-color-tour-dates {
+    background-color: #fafafa;
+}
+
+.ui-menu-color-gallery {
+    background-color: #fafafa;
+}
+
+.ui-menu-color-contact {
+    background-color: #fafafa;
+}
+
+.bookus {
+    color: #fafafa;
+}
+
+body {      
+    font-family: Roboto, sans-serif;      
+    font-weight: 300;      
+    background-color: #ffffff00;      
+    color: #525252;
+} 
+
+/*--------------------------------------------Background*/
+
+html,
+.body-container {
+    height: 100vh;
+    background: url("../images/textured-wall.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*--------------------------------------------General Other*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/*--------------------------------------------Heading*/
+
+header {
+    position: relative;
+}
+
+.heading p {
+    padding-top: 70px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.page-head {
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #654321;
+}
+
+.list-inline {
+    padding-left: 0px;
+    margin-left: 100px;
+    list-style: none;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menuitem {
+    height: 40px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    color: #5d33ce;
+    height: 40px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*--------------------------------------------Hover.css*/
+
+header .menuitem a:hover {
+    color: #A9A9A9;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+footer .footmenu a:hover {
+    color: #5d33ce;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+footer .bookus:hover {
+    color: #5d33ce;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+footer .social-media i:hover {
+    color: #5d33ce;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/*--------------------------------------------Footer*/
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+}
+
+.footer-info {
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.footer-info ul li a {
+    display: block;
+    color: #fafafa;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.social-media i {
+    letter-spacing: 25px;
+}
+
+.bookus {
+    padding: 0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*--------------------------------------------About Main*/
+
+.about-main {
+    padding: 30px;
+}
