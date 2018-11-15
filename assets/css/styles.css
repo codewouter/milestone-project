@@ -61,6 +61,14 @@ a:link {
     font-size: 12px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+   font-family: "Exo", sans-serif; 
+}
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -251,10 +259,27 @@ footer {
     background: #f0ffff;
 }
 
+.video {
+    float: left;
+    
+}
+
 /*--------------------------------------------Gallery*/
 
 .gallery {
     padding: 30px;
+}
+
+.audioclips {
+    padding: 20px;
+}
+
+.audioclips p {
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    color: #383838;
 }
 
 /*--------------------------------------------Contact*/
