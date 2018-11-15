@@ -206,6 +206,51 @@ footer {
     padding: 30px;
 }
 
+.tour-timeline {
+    position: relative;
+    color: #000000;
+    border-left: 2px solid;
+    padding-left: 30px;
+    letter-spacing: 5px;
+}
+
+.tour-timeline p {
+    color: #f0ffff;
+}
+
+.tour-item {
+    padding-top: 25px;
+    
+}
+
+.tour-country {
+    margin-bottom: 2px;
+}
+
+.tour-item::before {
+    position: absolute;
+    left: 30px;
+    top: 60px;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.tour-item::after {
+    width: 10px;
+    height: 10px;
+    display: block;
+    top: 50px;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #f0ffff;
+}
+
 /*--------------------------------------------Gallery*/
 
 .gallery {
