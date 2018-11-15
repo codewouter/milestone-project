@@ -3,23 +3,23 @@
 /*--------------------------------------------Colours*/
 
 .ui-menu-color-home {
-    background-color: #fafafa;
+    background-color: rgba(250, 250, 250, 0.5);
 }
 
 .ui-menu-color-music {
-    background-color: #fafafa;
+    background-color: rgba(250, 250, 250, 0.5);
 }
 
 .ui-menu-color-tour-dates {
-    background-color: #fafafa;
+    background-color: rgba(250, 250, 250, 0.5);
 }
 
 .ui-menu-color-gallery {
-    background-color: #fafafa;
+    background-color: rgba(250, 250, 250, 0.5);
 }
 
 .ui-menu-color-contact {
-    background-color: #fafafa;
+    background-color: rgba(250, 250, 250, 0.5);
 }
 
 .bookus {
@@ -57,6 +57,10 @@ a:link {
     text-decoration: none;
 }
 
+.body-members p {
+    font-size: 12px;
+}
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -70,11 +74,11 @@ header {
 }
 
 .page-head {
-    font-family: "Exo", sans-serif;
-    font-weight: 200;
-    font-size: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
-    color: #654321;
+    width: 50%;
 }
 
 .list-inline {
@@ -188,5 +192,28 @@ footer {
 /*--------------------------------------------About Main*/
 
 .about-main {
+    padding: 30px;
+}
+
+.about-members {
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+/*--------------------------------------------Tour Dates*/
+
+.tourdates {
+    padding: 30px;
+}
+
+/*--------------------------------------------Gallery*/
+
+.gallery {
+    padding: 30px;
+}
+
+/*--------------------------------------------Contact*/
+
+.contact {
     padding: 30px;
 }
