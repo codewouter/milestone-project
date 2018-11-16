@@ -160,6 +160,14 @@ footer .social-media i:hover {
     -o-transition: all 0.35s ease-in-out;
 }
 
+section .contact-socialmedia li a i:hover {
+    color: #5d33ce;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
@@ -282,12 +290,34 @@ footer {
     color: #383838;
 }
 
-.gallery-photo {
+.gallery-photo img {
     padding-bottom: 10px;
+     transition: all.5s ease-in-out;
+    -moz-transition: all.5s ease-in-out;
+    -webkit-transition: all.5s ease-in-out;
 }
 
 /*--------------------------------------------Contact*/
 
 .contact {
     padding: 30px;
+}
+
+.contact-socialmedia li a i {
+    width: 150px;
+    height: 150px;
+    padding: 70px 0;
+    border-radius: 30%;
+    font-size: 50px;
+    line-height: 10px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+}
+
+.contact-socialmedia li {
+    padding-top: 0;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
 }
