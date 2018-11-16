@@ -179,7 +179,6 @@ button[type="submit"]:hover {
 /*--------------------------------------------Footer*/
 
 footer {
-
     left: 0;
     bottom: 0;
     width: 100%;
@@ -278,6 +277,19 @@ footer {
     border-radius: 12px;
     content: '';
     background: #f0ffff;
+}
+
+.tickets {
+    width: 300px;
+    padding: 5px;
+}
+
+.btn-default {
+    background-color: rgba(250, 250, 250, 0.9);
+}
+
+.tickets a {
+    color: #a0a0a0;
 }
 
 /*--------------------------------------------Gallery*/
