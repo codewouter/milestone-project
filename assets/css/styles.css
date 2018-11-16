@@ -208,6 +208,11 @@ footer {
     padding-bottom: 30px;
 }
 
+.video {
+    float: left;
+    
+}
+
 /*--------------------------------------------Tour Dates*/
 
 .tourdates {
@@ -259,11 +264,6 @@ footer {
     background: #f0ffff;
 }
 
-.video {
-    float: left;
-    
-}
-
 /*--------------------------------------------Gallery*/
 
 .gallery {
@@ -277,9 +277,13 @@ footer {
 .audioclips p {
     font-family: "Exo", sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
     color: #383838;
+}
+
+.gallery-photo {
+    padding-bottom: 10px;
 }
 
 /*--------------------------------------------Contact*/
