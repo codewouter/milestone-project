@@ -230,34 +230,27 @@ footer {
 
 /*--------------------------------------------Tour Dates*/
 
-.tourdates {
-    padding: 30px;
-}
-
-.tour-timeline {
+.tourdate-item {
+    padding-top: 30px;
+    padding-right: 32px;
+    padding-bottom: 0px;
+    padding-left: 28px;
     position: relative;
     color: #000000;
     border-left: 2px solid;
-    padding-left: 30px;
     letter-spacing: 5px;
 }
 
-.tour-timeline p {
+.tourdate-item p {
     color: #f0ffff;
+    padding-left: 0;
+    margin: 0;
+    letter-spacing: 5px;
 }
 
-.tour-item {
-    padding-top: 25px;
-    
-}
-
-.tour-country {
-    margin-bottom: 2px;
-}
-
-.tour-item::before {
+.tourdate-item::before {
     position: absolute;
-    left: 30px;
+    left: 40px;
     top: 60px;
     display: block;
     font-family: "Exo", sans-serif;
@@ -267,16 +260,21 @@ footer {
     margin: 0;
 }
 
-.tour-item::after {
-    width: 10px;
-    height: 10px;
+.tourdate-item::after {
+    width: 12px;
+    height: 12px;
     display: block;
-    top: 50px;
+    top: 58px;
     position: absolute;
-    left: -6px;
+    left: -7px;
     border-radius: 12px;
     content: '';
-    background: #f0ffff;
+    background: #000000;
+    border: #f0ffff solid;
+}
+
+.tourdates {
+    padding: 30px;
 }
 
 .tickets {
@@ -289,8 +287,40 @@ footer {
 }
 
 .tickets a {
-    color: #a0a0a0;
+    color: #484848;
 }
+
+.ticket-colourbck a {
+    background-color: rgba(93, 51, 206, 0.3);
+    position: relative;
+    color: #000000;
+    display: block;
+    border-color: #f0ffff;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+.hvr-sweep-to-right:before {
+    background-color: rgba(93, 51, 206, 0.3);
+    color: #000000;
+    display: block;
+    border-color: #f0ffff;
+    border-radius: 15px;
+    text-align: center;
+    transition: 1s ease-in-out;
+}
+
+.hvr-sweep-to-right:after {
+    background-color: rgba(93, 51, 206, 0.6);
+    color: #f0ffff;
+    display: block;
+    border-color: #f0ffff;
+    border-radius: 15px;
+    text-align: center;
+}
+
 
 /*--------------------------------------------Gallery*/
 
