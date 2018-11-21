@@ -99,16 +99,6 @@ header {
     margin: 0;
 }
 
-#nav li {
-    padding: 0;
-}
-
-.menuitem {
-    height: 40px;
-    text-align: center;
-    padding: 0;
-}
-
 .menuitem a {
     width: 100%;
     color: #5d33ce;
@@ -118,7 +108,6 @@ header {
 .menuitem span {
     display: block;
     width: 100%;
-    padding-top: 10px;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
@@ -296,7 +285,7 @@ footer {
     color: #000000;
     display: block;
     border-color: #f0ffff;
-    padding: 10px;
+    padding: 2px;
     border-radius: 15px;
     text-align: center;
     margin: 20px;
