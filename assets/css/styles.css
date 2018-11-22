@@ -125,7 +125,7 @@ header .menuitem a:hover {
     -o-transition: all 0.35s ease-in-out;
 }
 
-footer .footmenu a:hover {
+.foothover:hover {
     color: #5d33ce;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -133,29 +133,7 @@ footer .footmenu a:hover {
     -o-transition: all 0.35s ease-in-out;
 }
 
-footer .bookus:hover {
-    color: #5d33ce;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
 
-footer .social-media i:hover {
-    color: #5d33ce;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-section .contact-socialmedia li a i:hover {
-    color: #5d33ce;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
 
 button[type="submit"]:hover {
     background-color: #a0a0a0;
@@ -205,14 +183,18 @@ footer {
 /*--------------------------------------------About Main*/
 
 .information {
-    background-color: rgba(160,160,160, 0.8);
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: rgba(160,160,160, 0.6);
     position: relative;
     display: block;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 20px;
     border-radius: 15px;
-    -webkit-box-shadow: -1px 0px 28px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 0px 28px 2px rgba(0,0,0,0.75);
-    box-shadow: -1px 0px 28px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 24px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 24px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 24px -2px rgba(0,0,0,0.75);
 }
 
 .information {
@@ -338,6 +320,7 @@ footer {
 }
 
 .audioclips {
+    padding-top: 10px;
     padding-bottom: 25px;
     padding-left: 0;
     margin-left: 0;
@@ -377,7 +360,7 @@ footer {
     line-height: 10px;
     text-align: center;
     color: #fafafa;
-    background: #a0a0a0;
+    background: rgba(160,160,160, 0.6);
 }
 
 .contact-socialmedia li {
@@ -393,6 +376,8 @@ footer {
     font-size: 26px;
     letter-spacing: 3px;
     color: rgba(93, 51, 206, 0.6);
+    padding-top: 5px;
+    text-align: center;
 }
 
 .form-about {
