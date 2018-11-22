@@ -189,6 +189,7 @@ footer {
     margin-top: 30px;
     letter-spacing: 2px;
     text-align: center;
+    padding-left: 0;
 }
 
 .social-media i {
@@ -203,6 +204,21 @@ footer {
 
 /*--------------------------------------------About Main*/
 
+.information {
+    background-color: rgba(160,160,160, 0.8);
+    position: relative;
+    display: block;
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-box-shadow: -1px 0px 28px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 28px 2px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 28px 2px rgba(0,0,0,0.75);
+}
+
+.information {
+    color: #fafafa;
+}
+
 .about-main {
     padding: 30px;
 }
@@ -212,9 +228,13 @@ footer {
     padding-bottom: 30px;
 }
 
-.video {
-    float: left;
-    
+.video video {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 80%;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*--------------------------------------------Tour Dates*/
@@ -285,7 +305,7 @@ footer {
     color: #000000;
     display: block;
     border-color: #f0ffff;
-    padding: 2px;
+    padding: 1px;
     border-radius: 15px;
     text-align: center;
     margin: 20px;
@@ -318,7 +338,10 @@ footer {
 }
 
 .audioclips {
-    padding: 20px;
+    padding-bottom: 25px;
+    padding-left: 0;
+    margin-left: 0;
+    position: relative;
 }
 
 .audioclips p {
