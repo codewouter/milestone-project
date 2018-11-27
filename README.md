@@ -28,3 +28,103 @@ This website is for individuals interested in, are fans of and who want to know 
     - Information about the band readily accessible
 - A music video
     - Allows users to listen to the music of the band by pressing play
+
+#### tourdates.html
+- Organised tour dates
+    - Tour dates orgainsed on a timeline for pleasant user experience so that fans and potential bookers can see when and where the band is playing
+- Ticket buying
+    - A section to buy tickets next to the tour dates of the band so that people can go straight from the website and not look it up separately
+
+#### gallery.html
+- Audio song clips
+    - Allows users to listen to popular songs of the band
+- Photo gallery
+    - Allows users to view photos of the band live in action on stage
+
+#### contact.html
+- Contact form
+    - Contact form for companies and venues to get in touch with the band for bookings
+    - Required input fields and a submit button that acknowledges submission
+- Social media links
+    - Direct links and username provided to the bands verified social media pages
+
+### Features to be implemented in the future
+- Javascript
+    - To link up the contact form for it to work correctly once I have learnt it
+
+### Features Left to Implement
+- None
+
+## Tech Used
+- HTML
+    - This was used to make the base language to create the website
+- CSS
+    - milestone-project/assets/css/styles.css
+    - This was used to style the elements of the HTML code
+- Bootstrap 
+    - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css   
+    - https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+    - This was used to help style the website and with the grid layout of it
+- Font Awesome
+    - https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i
+    - This was used to create a universal font for the website
+- Hover
+    - https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css
+    - This was used to have the hover styles run smoothly
+
+## Testing
+- .html files
+    - An HTML validator was used to check the code
+- .css file
+    - A CSS validator was used to check the stylings
+
+### Bugs/Problems encountered
+- Mobile responsive was not working at first when viewing in ‘inspect’ and on the different devices
+    - First I ran my code through an HTML validator which fixed the tourdates.html page in mobile responsive 
+    - Second I discovered the video element and audio elements were preventing the mobile responsive to work. To fix this I resized and repositioned the video and audio elements which fixed the problem and the mobile responsive worked smoothly after this
+- Footer code would not collapse in my cloud9 workspace
+    - To fix this I ran the footer code through an HTML validator and corrected the problems which worked to then collapse my footer code
+- My mentor pointed out that the code for my navigation bar was not formatted correctly with the Bootstrap divs and rows
+    - To fix this I re watched some videos and took in what my mentor said to make my code my cleans and work more effectively
+- Creating a timeline for the tour dates on tourdates.html
+    - This was difficult for me as when I created it the first time it did not go as smoothly as I would have liked it to. To correct this, I re watched the lesson on it and understood more of what I had to do as I was leaving out some key CSS styles 
+
+## Deployment
+
+## Credits
+
+### Content
+
+#### index.html
+- The information used in index.html was obtained and rewritten by me from [Wikapedia article The 1975](https://en.wikipedia.org/wiki/The_1975)
+
+#### tourdates.html
+- The information used for the tour dates timeline in tourdates.html was found from [The 1975 Official Website](https://the1975.com/)
+- The information used for buying tickets on tourdates.html were from the following 
+    - [Belfast SSE Arena](https://www.ssearenabelfast.com/whats-on)
+    - [Dublin Arena](http://3arena.ie/)
+    - [Glasgow SSE Hydro](https://www.thessehydro.com/)
+    - [Cardiff Motorpoint Arena](https://motorpointarenacardiff.co.uk/)
+    - [Brighton the Centre](https://brightoncentre.co.uk/)
+    - [London the O2](https://www.theo2.co.uk/events/venue/the-o2-arena)
+    - [Exeter Westpoint](http://westpointexeter.co.uk/whats-on)
+    - [Birmingham Arena](http://www.arenabham.co.uk/)
+    - [Manchester Arena](http://www.manchester-arena.com/)
+    - [Sheffield Flydsa Arena](http://www.flydsaarena.co.uk/home)
+
+### Media
+
+####index.html
+- The photos used in index.html were obtained from [The Billboard Photos From the Billboard Cover Shoot](https://www.billboard.com/photos/8468106/the-1975-photos-billboard-cover-shoot)
+- The video used in index.html was obtained from downloading the video from [The 1975’s Youtube Channel](https://www.youtube.com/watch?v=CHk5SWVO4p8)
+
+####gallery.html
+- The photos used in gallery.html were obtained from [Getty Images of The 1975](https://www.gettyimages.co.uk/photos/the-1975-band?sort=mostpopular&mediatype=photography&phrase=the%201975%20band)
+- The audio clips used in gallery.html were obtained by downloading songs from the following youtube channels
+    - The 1975 [Somebody Else](https://www.youtube.com/watch?v=NzjzBsgZH2w)
+    - Bestfiend Lyrics [The Sound](https://www.youtube.com/watch?v=Oc5GRjZvffo)
+    - The 1975 [Paris](https://www.youtube.com/watch?v=xxaPbsT0ixk)
+    - The 1975 [If I Believe You](https://www.youtube.com/watch?v=_o0_q89IqVc)
+
+### Acknowledgements
+- I received inspiration for the top of the website design from the blog [Poppy Loves](http://www.poppyloves.co.uk/)
