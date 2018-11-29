@@ -21,20 +21,6 @@ body {
     color: rgba(0, 0, 0, 0.8);;
 } 
 
-/*--------------------------------------------Background*/
-
-html,
-.body-container {
-    height: 100vh;
-    background: url("../images/textured-wall.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 /*--------------------------------------------General Other*/
 
 .uppercase {
@@ -59,44 +45,19 @@ header {
     position: relative;
 }
 
-.heading p {
-    padding-top: 70px;
-    padding-bottom: 5px;
-    align-items: center;
+.heading-logo img {
+    float: left;
+    padding-bottom: 10px;
 }
 
 .page-head {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    width: 50%;
+    margin-top: 25px;
+    width: 15%;
 }
 
-.list-inline {
-    padding-left: 0px;
-    margin-left: 100px;
-    list-style: none;
-}
-
-#nav {
-    margin: 0;
-}
-
-.menuitem a {
-    width: 100%;
-    color: #5d33ce;
-    height: 40px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
+.navbar-nav {
+    padding: 20px;
 }
 
 /*--------------------------------------------Hover.css*/
@@ -135,6 +96,7 @@ footer {
     width: 100%;
     min-height: 100px;
     text-align: center;
+    background-color: #000000;
 }
 
 .footeritem span {
@@ -143,7 +105,7 @@ footer {
 
 .footer-info {
     display: block;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .footer-info ul li a {
@@ -177,35 +139,38 @@ footer {
 
 /*--------------------------------------------About Main*/
 
-.information {
+.heading h1{
+    text-align: center;
+}
+
+.information-container {
     font-family: "Exo", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    background-color: rgba(160,160,160, 0.6);
-    color: #fafafa;
-    position: relative;
-    display: block;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 15px;
-    -webkit-box-shadow: 0px 0px 24px -2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 24px -2px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 24px -2px rgba(0,0,0,0.75);
-}
-
-.about-main {
+    background-color: #ffffff;
+    color: #000000;
     padding: 30px;
 }
 
-.about-members {
-    padding-top: 5px;
-    padding-bottom: 30px;
+.members {
+    height: 60vh;
+    background: url(../../assets/images/textured-wall.jpg) no-repeat center center fixed; 
 }
 
-.video video {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    width: 80%;   
+.bandmembers {
+    display: inline-block;
+    padding-right: 100px;
+}
+
+.membernames {
+    display: inline-block;
+    padding-right: 80px;
+}
+
+.musicvideo video {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 70%;   
     display: block;
     margin-left: auto;
     margin-right: auto;
