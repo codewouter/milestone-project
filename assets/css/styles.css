@@ -14,13 +14,6 @@
     color: #fafafa;
 }
 
-body {      
-    font-family: Roboto, sans-serif;      
-    font-weight: 300;      
-    background-color: #ffffff;      
-    color: rgba(0, 0, 0, 0.8);;
-} 
-
 /*--------------------------------------------General Other*/
 
 .uppercase {
@@ -178,6 +171,14 @@ footer {
 
 /*--------------------------------------------Tour Dates*/
 
+.tickets {
+    background: #ffffff;
+}
+
+.ticketheadcolour {
+    background-color: #f0f0f0;
+}
+
 .tourdate-item {
     padding-top: 50px;
     padding-right: 32px;
@@ -224,46 +225,41 @@ footer {
     padding: 30px;
 }
 
-.tickets a {
-    color: #484848;
+.tourtimeline {
+    padding-left: 50%;
+    background-color: #f0f0f0;
 }
 
-.ticket-colourbck {
-    padding-bottom: 1px;
-}
 
 .ticket-colourbck a {
-    background-color: rgba(93, 51, 206, 0.3);
+    background-color: #ffffff;
     position: relative;
     color: #000000;
     display: block;
-    border-color: #f0ffff;
+    border-color: #000000;
     padding: 0.3px;
-    border-radius: 15px;
     text-align: center;
     margin: 20px;
 }
 
 .buytickets {
-    padding-top: 56px;
+    padding-top: 10px;
 }
 
 .hvr-sweep-to-right:before {
-    background-color: rgba(93, 51, 206, 0.3);
+    background-color: #000000;
     color: #000000;
+    border-color: #000000;
     display: block;
-    border-color: #f0ffff;
-    border-radius: 15px;
     text-align: center;
     transition: 1s ease-in-out;
 }
 
 .hvr-sweep-to-right:after {
-    background-color: rgba(93, 51, 206, 0.6);
+    background-color: #000000;
     color: #f0ffff;
+    border-color: #000000;
     display: block;
-    border-color: #f0ffff;
-    border-radius: 15px;
     text-align: center;
 }
 
