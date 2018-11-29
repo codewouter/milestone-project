@@ -48,7 +48,7 @@ This website is for individuals interested in, are fans of and who want to know 
 - Social media links
     - Direct links and username provided to the bands verified social media pages
 
-### Features to be implemented in the future
+### Features to be Implemented in the Future
 - Javascript
     - To link up the contact form for it to work correctly once I have learnt it
 
@@ -78,7 +78,7 @@ This website is for individuals interested in, are fans of and who want to know 
 - .css file
     - A CSS validator was used to check the stylings
 
-### Bugs/Problems encountered
+### Bugs/Problems Encountered
 - Mobile responsive was not working at first when viewing in ‘inspect’ and on the different devices
     - First I ran my code through an HTML validator which fixed the tourdates.html page in mobile responsive 
     - Second I discovered the video element and audio elements were preventing the mobile responsive to work. To fix this I resized and repositioned the video and audio elements which fixed the problem and the mobile responsive worked smoothly after this
@@ -114,11 +114,11 @@ This website is for individuals interested in, are fans of and who want to know 
 
 ### Media
 
-####index.html
+#### index.html
 - The photos used in index.html were obtained from [The Billboard Photos From the Billboard Cover Shoot](https://www.billboard.com/photos/8468106/the-1975-photos-billboard-cover-shoot)
 - The video used in index.html was obtained from downloading the video from [The 1975’s Youtube Channel](https://www.youtube.com/watch?v=CHk5SWVO4p8)
 
-####gallery.html
+#### gallery.html
 - The photos used in gallery.html were obtained from [Getty Images of The 1975](https://www.gettyimages.co.uk/photos/the-1975-band?sort=mostpopular&mediatype=photography&phrase=the%201975%20band)
 - The audio clips used in gallery.html were obtained by downloading songs from the following youtube channels
     - The 1975 [Somebody Else](https://www.youtube.com/watch?v=NzjzBsgZH2w)
