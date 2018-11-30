@@ -32,6 +32,7 @@ h5 {
    font-family: "Exo", sans-serif; 
 }
 
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -98,6 +99,7 @@ footer {
 .footer-info {
     display: block;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .footer-info ul li a {
@@ -269,6 +271,10 @@ footer {
     padding: 30px;
 }
 
+.audio {
+    text-align: center;
+}
+
 .audioclips {
     padding-top: 10px;
     padding-bottom: 25px;
@@ -344,7 +350,9 @@ footer {
 }
 
 .center-form {
-    max-width: 120%;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 button[type="submit"] {
