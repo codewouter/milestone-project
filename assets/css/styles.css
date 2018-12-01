@@ -32,6 +32,26 @@ h5 {
    font-family: "Exo", sans-serif; 
 }
 
+.heading h1 {
+    text-align: center;
+}
+
+.members,
+.timelinebackground,
+.gallery-photo {
+    height: 60vh;
+    background: url(../../assets/images/textured-wall.jpg) no-repeat center center fixed; 
+}
+
+.information-container {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 30px;
+}
+
 
 /*--------------------------------------------Heading*/
 
@@ -133,23 +153,6 @@ footer {
 
 /*--------------------------------------------About Main*/
 
-.heading h1{
-    text-align: center;
-}
-
-.information-container {
-    font-family: "Exo", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    background-color: #ffffff;
-    color: #000000;
-    padding: 30px;
-}
-
-.members {
-    height: 60vh;
-    background: url(../../assets/images/textured-wall.jpg) no-repeat center center fixed; 
-}
 
 .bandmembers {
     display: inline-block;
@@ -171,11 +174,6 @@ footer {
 }
 
 /*--------------------------------------------Tour Dates*/
-
-
-.ticketheadcolour {
-    background-color: #f0f0f0;
-}
 
 .tourdate-item {
     padding-top: 50px;
@@ -225,7 +223,6 @@ footer {
 
 .tourtimeline {
     padding-left: 50%;
-    background-color: #f0f0f0;
 }
 
 
