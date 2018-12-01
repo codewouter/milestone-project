@@ -10,10 +10,6 @@
     background-color: rgba(250, 250, 250, 0.5);
 }
 
-.bookus {
-    color: #fafafa;
-}
-
 /*--------------------------------------------General Other*/
 
 .uppercase {
@@ -38,7 +34,8 @@ h5 {
 
 .members,
 .timelinebackground,
-.gallery-photo {
+.gallery-photo,
+.contact-background {
     height: 60vh;
     background: url(../../assets/images/textured-wall.jpg) no-repeat center center fixed; 
 }
@@ -145,6 +142,7 @@ footer {
 }
 
 .bookus {
+    color: #fafafa;
     padding: 0;
     margin-top: 30px;
     text-align: center;
@@ -187,7 +185,7 @@ footer {
 }
 
 .tourdate-item p {
-    color: #f0ffff;
+    color: #5d33ce;
     padding-left: 0;
     margin: 0;
     letter-spacing: 5px;
@@ -214,7 +212,7 @@ footer {
     border-radius: 12px;
     content: '';
     background: #000000;
-    border: #f0ffff solid;
+    border: #5d33ce solid;
 }
 
 .tourdates {
@@ -235,6 +233,7 @@ footer {
     padding: 0.3px;
     text-align: center;
     margin: 20px;
+    border: solid 1px;
 }
 
 .buytickets {
