@@ -225,7 +225,7 @@ footer {
 }
 
 .tourtimeline {
-    padding-left: 50%;
+    padding-left: 40%
 }
 
 
@@ -271,7 +271,7 @@ footer {
 
 .audio {
     text-align: center;
-    background-color: rgba(71,71,71, 0.6);
+    background-color: rgba(71,71,71);
 }
 
 .audioclips {
@@ -287,17 +287,22 @@ footer {
     font-weight: 600;
     font-size: 18px;
     font-style: italic;
-    color: #383838;
+    color: #ffffff;
 }
 
 .gallery-photo img {
-    padding-bottom: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
     -webkit-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
     box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
     transition: all.5s ease-in-out;
     -moz-transition: all.5s ease-in-out;
     -webkit-transition: all.5s ease-in-out;
+}
+
+.bandimages {
+    text-align: center;
 }
 
 /*--------------------------------------------Contact*/
