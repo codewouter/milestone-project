@@ -155,11 +155,11 @@ footer {
 
 .bandmembers {
     display: inline-block;
+    text-align: center;
 }
 
 .membernames {
     display: inline-block;
-    text-align: center;
 }
 
 .musicvideo video {
