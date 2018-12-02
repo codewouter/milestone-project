@@ -36,8 +36,8 @@ h5 {
 .timelinebackground,
 .gallery-photo,
 .contact-background {
-    height: 60vh;
     background: url(../../assets/images/textured-wall.jpg) no-repeat center center fixed; 
+    padding: 20px;
 }
 
 .information-container {
@@ -271,6 +271,7 @@ footer {
 
 .audio {
     text-align: center;
+    background-color: rgba(71,71,71, 0.6);
 }
 
 .audioclips {
