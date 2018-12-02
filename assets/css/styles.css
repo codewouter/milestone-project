@@ -153,17 +153,12 @@ footer {
 
 /*--------------------------------------------About Main*/
 
-.members {
-    text-align: center;
-}
 .bandmembers {
     display: inline-block;
-    padding-right: 100px;
 }
 
 .membernames {
     display: inline-block;
-    padding-right: 77px;
     text-align: center;
 }
 
