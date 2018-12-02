@@ -111,6 +111,8 @@ This website is for individuals interested in, are fans of and who want to know 
     - [Birmingham Arena](http://www.arenabham.co.uk/)
     - [Manchester Arena](http://www.manchester-arena.com/)
     - [Sheffield Flydsa Arena](http://www.flydsaarena.co.uk/home)
+    - [Reading Festival](https://www.readingfestival.com/tickets)
+    - [Leeds Festival](https://www.leedsfestival.com/tickets)
 
 ### Media
 

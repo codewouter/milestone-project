@@ -30,11 +30,16 @@ h5 {
 
 .heading h1 {
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.heading p {
+    text-align: center;
 }
 
 .members,
 .timelinebackground,
-.gallery-photo,
+.audio,
 .contact-background {
     background: url(../../assets/images/textured-wall.jpg) no-repeat center center fixed; 
     padding: 20px;
@@ -116,6 +121,7 @@ footer {
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .footer-info ul li a {
@@ -131,9 +137,7 @@ footer {
 }
 
 .social-links {
-    padding-left: 0;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 .social-media i {
@@ -269,9 +273,11 @@ footer {
     padding: 30px;
 }
 
+.gallery-photo {
+    background-color: #ffffff;
+}
 .audio {
     text-align: center;
-    background-color: rgba(71,71,71);
 }
 
 .audioclips {
@@ -328,9 +334,7 @@ footer {
 }
 
 .contact-socialmedia {
-    padding-bottom: 30px;
-    padding-left: 25%;
-    padding-right: 10px;
+    text-align: center;
 }
 
 .social-username {
