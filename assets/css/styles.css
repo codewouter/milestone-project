@@ -303,6 +303,7 @@ footer {
 .gallery-photo img {
     margin-bottom: 20px;
     margin-right: 20px;
+    margin-top: 20px;
     -webkit-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
     box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
@@ -319,6 +320,14 @@ footer {
 
 .contact {
     padding: 30px;
+}
+
+.contactinfo {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    padding-bottom: 20px;
 }
 
 .contact-socialmedia a i {
