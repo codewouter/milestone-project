@@ -75,9 +75,15 @@ header {
     padding: 20px;
 }
 
+.navbar-nav a {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
 /*--------------------------------------------Hover.css*/
 
-header .menuitem a:hover {
+.navbar-nav li a:hover {
     color: #A9A9A9;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -92,8 +98,6 @@ header .menuitem a:hover {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
-
 
 button[type="submit"]:hover {
     background-color: #a0a0a0;
@@ -121,7 +125,6 @@ footer {
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-align: center;
 }
 
 .footer-info ul li a {
@@ -146,7 +149,6 @@ footer {
 
 .bookus {
     color: #fafafa;
-    padding: 0;
     margin-top: 30px;
     text-align: center;
     font-weight: 500;
@@ -165,6 +167,7 @@ footer {
 .membernames {
     display: inline-block;
     padding-right: 77px;
+    text-align: center;
 }
 
 .musicvideo video {
