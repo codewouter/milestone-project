@@ -51,6 +51,7 @@ This website is for individuals interested in, are fans of and who want to know 
 ### Features to be Implemented in the Future
 - Javascript
     - To link up the contact form for it to work correctly once I have learnt it
+    - To have an alert that says "thank you for submitting your form" without over writing the required fields
 
 ### Features Left to Implement
 - None
@@ -74,11 +75,18 @@ This website is for individuals interested in, are fans of and who want to know 
 
 ## Testing
 - .html files
-    - An HTML validator was used to check the code
+    - An HTML [validator](https://validator.w3.org/) was used to check the code
+    - An HTML [formatter](https://www.freeformatter.com/html-formatter.html) was used
 - .css file
     - A CSS validator was used to check the stylings
+- Overall
+    - I tested out some designs in a workspace that I cloned from this milstone project and ended up copying and pasting some of that code over for some aspects of my submitted project. [This repository can be found here]()
+
 
 ### Bugs/Problems Encountered
+- Contact form
+    - When adding in an alert to say "thank you for submitting your form", the code would overwrite the required fields of the form
+    - In the end I had to remove the alert and will work on it when I learn Javascript
 - Mobile responsive was not working at first when viewing in ‘inspect’ and on the different devices
     - First I ran my code through an HTML validator which fixed the tourdates.html page in mobile responsive 
     - Second I discovered the video element and audio elements were preventing the mobile responsive to work. To fix this I resized and repositioned the video and audio elements which fixed the problem and the mobile responsive worked smoothly after this
@@ -96,7 +104,8 @@ This website is for individuals interested in, are fans of and who want to know 
 ### Content
 
 #### index.html
-- The information used in index.html was obtained and rewritten by me from [Wikapedia article The 1975](https://en.wikipedia.org/wiki/The_1975)
+- The information used in index.html paragraph one was obtained and rewritten by me from [Wikapedia article The 1975](https://en.wikipedia.org/wiki/The_1975)
+- The information used in index.html paragraph two was copy and pasted from the fourth paragraph from [Wikapedia article The 1975](https://en.wikipedia.org/wiki/The_1975)
 
 #### tourdates.html
 - The information used for the tour dates timeline in tourdates.html was found from [The 1975 Official Website](https://the1975.com/)
