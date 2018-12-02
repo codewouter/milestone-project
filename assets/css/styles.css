@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*--------------------------------------------General Other*/
+/*--------------------------------------------General*/
 .ui-menu-color-home,
 .ui-menu-color-music,
 .ui-menu-color-tour-dates,
@@ -83,13 +83,15 @@ h5 {
 
 /*--------------------------------------------Hover.css*/
 
-.navbar-nav li a:hover {
-    color: #A9A9A9;
+.navbar-default .navbar-nav li a:hover {
+    color: #5d33ce;
+    border-bottom: solid;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
 
 .foothover:hover {
     color: #5d33ce;

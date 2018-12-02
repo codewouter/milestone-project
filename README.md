@@ -129,7 +129,7 @@ This website is for individuals interested in, are fans of and who want to know 
 - The photo used as a background in all files was obtained from [Pixabay](https://pixabay.com/en/wear-retro-people-abandoned-3289266/)
 
 #### index.html
-- The photos used in index.html were obtained from [The Billboard Photos From the Billboard Cover Shoot](https://www.billboard.com/photos/8468106/the-1975-photos-billboard-cover-shoot)
+- The photos used in index.html were obtained from [The Billboard Photos From The 1975 Cover Shoot](https://www.billboard.com/photos/8468106/the-1975-photos-billboard-cover-shoot)
 - The video used in index.html was obtained from downloading the video from [The 1975’s Youtube Channel](https://www.youtube.com/watch?v=CHk5SWVO4p8)
 
 #### gallery.html
