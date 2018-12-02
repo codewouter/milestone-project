@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*--------------------------------------------Colours*/
-
+/*--------------------------------------------General Other*/
 .ui-menu-color-home,
 .ui-menu-color-music,
 .ui-menu-color-tour-dates,
@@ -9,8 +8,6 @@
 .ui-menu-color-contact {
     background-color: rgba(250, 250, 250, 0.5);
 }
-
-/*--------------------------------------------General Other*/
 
 .uppercase {
     text-transform: uppercase;
@@ -56,25 +53,17 @@ h5 {
     text-align: center;
 }
 
-
 /*--------------------------------------------Heading*/
 
 .navbar {
     position: relative;
-}
-
-.heading-logo img {
-    float: left;
-}
-
-.page-head {
-    display: block;
-    margin-top: 25px;
-    width: 15%;
+    margin-bottom: 0;
 }
 
 .navbar-nav {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 0;
 }
 
 .navbar-nav a {
@@ -83,6 +72,14 @@ h5 {
     font-weight: 500;
 }
 
+.heading-logo img {
+    float: left;
+}
+
+.page-head {
+    margin-top: 25px;
+    width: 16%;
+}
 
 /*--------------------------------------------Hover.css*/
 
@@ -126,8 +123,6 @@ footer {
 
 .footer-info {
     display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .footer-info ul li a {
@@ -188,10 +183,7 @@ footer {
 /*--------------------------------------------Tour Dates*/
 
 .tourdate-item {
-    padding-top: 50px;
-    padding-right: 32px;
-    padding-bottom: 0px;
-    padding-left: 28px;
+    padding: 50px 32px 0 28px;
     position: relative;
     color: #000000;
     border-left: 2px solid;
@@ -235,7 +227,6 @@ footer {
     padding-left: 40%
 }
 
-
 .ticket-colourbck a {
     background-color: #ffffff;
     position: relative;
@@ -268,7 +259,6 @@ footer {
     display: block;
     text-align: center;
 }
-
 
 /*--------------------------------------------Gallery*/
 
