@@ -20,16 +20,17 @@ a:link {
     text-decoration: none;
 }
 
-h1,
+h1 {
+    font-family: "Exo", sans-serif; 
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 h2,
 h3,
 h4,
 h5 {
-   font-family: "Exo", sans-serif; 
-}
-
-.heading h1 {
-    text-align: center;
+    font-family: "Exo", sans-serif; 
     padding-bottom: 10px;
 }
 
@@ -52,12 +53,13 @@ h5 {
     background-color: #ffffff;
     color: #000000;
     padding: 30px;
+    text-align: center;
 }
 
 
 /*--------------------------------------------Heading*/
 
-header {
+.navbar {
     position: relative;
 }
 
@@ -137,7 +139,6 @@ footer {
     margin-top: 30px;
     letter-spacing: 2px;
     text-align: center;
-    padding-left: 0;
 }
 
 .social-links {
@@ -211,8 +212,6 @@ footer {
     font-family: "Exo", sans-serif;
     font-weight: 500;
     font-size: 12px;
-    padding: 0;
-    margin: 0;
 }
 
 .tourdate-item::after {
@@ -285,11 +284,7 @@ footer {
 }
 
 .audioclips {
-    padding-top: 10px;
-    padding-bottom: 25px;
-    padding-left: 0;
-    margin-left: 0;
-    position: relative;
+    padding: 10px;
 }
 
 .audioclips p {
@@ -354,10 +349,6 @@ footer {
     font-family: "Exo", sans-serif;
     font-weight: 500;
     color: rgba(93, 51, 206, 0.8);
-}
-
-.center-form p {
-    padding: 0;
 }
 
 .center-form {

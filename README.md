@@ -80,8 +80,7 @@ This website is for individuals interested in, are fans of and who want to know 
 - .css file
     - A CSS validator was used to check the stylings
 - Overall
-    - I tested out some designs in a workspace that I cloned from this milstone project and ended up copying and pasting some of that code over for some aspects of my submitted project. [This repository can be found here]()
-
+    - I tested out some designs in a workspace that I cloned from this milestone project and ended up copying and pasting some of that code over for some aspects of my submitted project. [This repository can be found here]()
 
 ### Bugs/Problems Encountered
 - Contact form
@@ -125,6 +124,10 @@ This website is for individuals interested in, are fans of and who want to know 
 
 ### Media
 
+#### header
+- The photo used in the navigation bar was obtained from [Nodaway Broadcasting](https://nodawaybroadcasting.com/event/the-1975/)
+- The photo used as a background in all files was obtained from [Pixabay](https://pixabay.com/en/wear-retro-people-abandoned-3289266/)
+
 #### index.html
 - The photos used in index.html were obtained from [The Billboard Photos From the Billboard Cover Shoot](https://www.billboard.com/photos/8468106/the-1975-photos-billboard-cover-shoot)
 - The video used in index.html was obtained from downloading the video from [The 1975’s Youtube Channel](https://www.youtube.com/watch?v=CHk5SWVO4p8)
@@ -138,4 +141,4 @@ This website is for individuals interested in, are fans of and who want to know 
     - The 1975 [If I Believe You](https://www.youtube.com/watch?v=_o0_q89IqVc)
 
 ### Acknowledgements
-- I received inspiration for the top of the website design from the blog [Poppy Loves](http://www.poppyloves.co.uk/)
+- I received inspiration for the original top of the website design from the blog [Poppy Loves](http://www.poppyloves.co.uk/)
