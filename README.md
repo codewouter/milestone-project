@@ -49,8 +49,6 @@ This website is for individuals interested in, are fans of and who want to know 
 - Contact form
     - Contact form for companies and venues to get in touch with the band for bookings
     - Required input fields
-- Social media links
-    - Direct links provided to the bands verified social media pages
 
 ### Features to be Implemented in the Future
 - Javascript
@@ -117,10 +115,6 @@ This website is for individuals interested in, are fans of and who want to know 
     - Try submit form with nothing filled out, this should bring up a "required field" alert
     - Try fill out form but leave one input field blank to make sure the "required field" alert pops up
     - Try to submit form with all input fields filled out and the page should reload
-- Social Media Links
-    - Go to Contact page
-    - Click each link to make sure they open in another page due to the target="_blank"
-    - Make sure each link correlates to the correct social media platform
 
 #### Navigation and Footer
 - Navigation
@@ -128,9 +122,6 @@ This website is for individuals interested in, are fans of and who want to know 
     - Make sure they lead to the correct place and can easily find your way back to starting point
     - Have friend also test this out for you
 - Footer
-    - Menu items
-        - Open each footer menu item on each page respectively
-        - Make sure they lead to the correct place and can easily find your way back 
     - Book Us Now
         - Click "Book Us Now" link on each page and make sure it leads to contact.html 
         - Make sure you can get other places easily from that page

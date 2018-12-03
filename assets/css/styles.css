@@ -251,6 +251,8 @@ footer {
 }
 .audio {
     text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .audioclips {
