@@ -120,7 +120,7 @@ h5 {
     text-align: center;
 }
 
-.ticket-country:hover, .uppercase:hover {
+.ticket-country:hover, .buying:hover {
     color: #fff;
     transition: color 1s ease-in-out;
 } 
@@ -233,12 +233,9 @@ footer {
     border: #5d33ce solid;
 }
 
-.tourdates {
-    padding: 30px;
-}
-
 .tourtimeline {
-    padding-left: 40%
+    padding-left: 500px;
+    padding-bottom: 100px;
 }
 
 .ticket-colourbck a {
@@ -355,4 +352,11 @@ button[type="submit"] {
     margin-bottom: 20px;
     background-color: #5d33ce;
     color: #fafafa;
+}
+
+
+@media (max-width:414px) {
+.tourtimeline {
+    padding-left: 50px;
+}
 }
