@@ -44,14 +44,15 @@ This website is for individuals interested in, are fans of and who want to know 
 #### contact.html
 - Contact form
     - Contact form for companies and venues to get in touch with the band for bookings
-    - Required input fields and a submit button that acknowledges submission
+    - Required input fields
 - Social media links
-    - Direct links and username provided to the bands verified social media pages
+    - Direct links provided to the bands verified social media pages
 
 ### Features to be Implemented in the Future
 - Javascript
     - To link up the contact form for it to work correctly once I have learnt it
     - To have an alert that says "thank you for submitting your form" without over writing the required fields
+    - To create a lightbox for the photos on the gallery.html page
 
 ### Features Left to Implement
 - None
@@ -64,23 +65,80 @@ This website is for individuals interested in, are fans of and who want to know 
     - This was used to style the elements of the HTML code
 - Bootstrap 
     - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css   
-    - https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
     - This was used to help style the website and with the grid layout of it
 - Font Awesome
     - https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i
+    - https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
     - This was used to create a universal font for the website
 - Hover
     - https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css
     - This was used to have the hover styles run smoothly
+- Box Shadow Generator
+    - A [box shadow generator](https://cssmatic.com/box-shadow) to create the shadowing behind the images on gallery.html
+- Validators
+    - An HTML [validator](https://validator.w3.org/) was used to check the code
+    - A CSS [checker](http://csslint.net/) was used to check the stylings
+- Formatter 
+    - An HTML [formatter](https://www.freeformatter.com/html-formatter.html) was used
 
 ## Testing
-- .html files
-    - An HTML [validator](https://validator.w3.org/) was used to check the code
-    - An HTML [formatter](https://www.freeformatter.com/html-formatter.html) was used
-- .css file
-    - A CSS validator was used to check the stylings
-- Overall
-    - I tested out some designs in a workspace that I cloned from this milestone project and ended up copying and pasting some of that code over for some aspects of my submitted project. [This repository can be found here]()
+
+#### Overall
+- I tested out some designs in a workspace that I cloned from this milestone project and ended up copying and pasting some of that code over for some aspects of my submitted project. [This repository can be found here](https://github.com/ananyasitlani/milestone-project-cloned)
+
+#### index.html
+- Video
+    - Go to Home page
+    - Click play on video and wait for it to load
+    - Repeat this on different browser
+
+#### tourdates.html
+- Buying tickets
+    - Go to Tour Dates page
+    - Click through each ticket buying option
+    - Make sure they open in another page due to the target="_blank"
+    - Make sure each link correlates to the correct website
+    - Get friend to also check for you
+
+#### gallery.html
+- Audio Clips
+    - Go to Gallery page
+    - Click through each audio clip
+    - Make sure each song plays aloud
+    - Get friend to also check for you
+
+#### contact.html
+- Contact Form
+    - Go to Contact page
+    - Try submit form with nothing filled out, this should bring up a "required field" alert
+    - Try fill out form but leave one input field blank to make sure the "required field" alert pops up
+    - Try to submit form with all input fields filled out and the page should reload
+- Social Media Links
+    - Go to Contact page
+    - Click each link to make sure they open in another page due to the target="_blank"
+    - Make sure each link correlates to the correct social media platform
+
+#### Navigation and Footer
+- Navigation
+    - Open each menu item on each page respectively 
+    - Make sure they lead to the correct place and can easily find your way back to starting point
+    - Have friend also test this out for you
+- Footer
+    - Menu items
+        - Open each footer menu item on each page respectively
+        - Make sure they lead to the correct place and can easily find your way back 
+    - Book Us Now
+        - Click "Book Us Now" link on each page and make sure it leads to contact.html 
+        - Make sure you can get other places easily from that page
+    - Social Media Links
+        -  Click each link to make sure they open in another page due to the target="_blank"
+        - Make sure each link correlates to the correct social media platform
+
+#### Mobile Responsive 
+- Each page was checked through the live preview by inspecting it in dev tools and choosing different screen sizes
+- Throughout project code was put through an HTML validator to make sure there were no open elemets or such that was preventing the code to run smoothly
+- Towards the end of the design it was figured out that the navigation bar was preventing all the pages to fill out the screen as a white space was running down the right side
+    - This was fixed by looking in the dev tools and altering the CSS
 
 ### Bugs/Problems Encountered
 - Contact form
@@ -124,7 +182,7 @@ This website is for individuals interested in, are fans of and who want to know 
 
 ### Media
 
-#### header
+#### Header
 - The photo used in the navigation bar was obtained from [Nodaway Broadcasting](https://nodawaybroadcasting.com/event/the-1975/)
 - The photo used as a background in all files was obtained from [Pixabay](https://pixabay.com/en/wear-retro-people-abandoned-3289266/)
 
@@ -141,4 +199,10 @@ This website is for individuals interested in, are fans of and who want to know 
     - The 1975 [If I Believe You](https://www.youtube.com/watch?v=_o0_q89IqVc)
 
 ### Acknowledgements
+- Thank you to the tutors for helping me through the parts I needed assistance with
+- Thank you to my first mentor who gave me confidence in my first website design
+- Thank you to my new mentor who showed me and went through with me how a modern day website should look like and giving me the confidence to re deisign and shape my website
+    - Half way through my project I gained a new mentor due to my original mentor changing roles within The Code Institute
+    - My new mentor talked through the design and we decided that I would make the website more modern looking
+    - Therefore I would like to say thank you to Antonija Simic for inspriring my website design 
 - I received inspiration for the original top of the website design from the blog [Poppy Loves](http://www.poppyloves.co.uk/)
