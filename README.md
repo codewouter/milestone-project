@@ -17,6 +17,10 @@ This website is for individuals interested in, are fans of and who want to know 
 - As a possible employer I want to listen to the genre of music they produce so that I can potentially book them for my venue
 - As a fan I want to know what their real social media pages are so that I can follow their live updates and tag them in photos I take when I attend their concerts
 
+### Mockups
+- Please find paper and pen mockup for the original first design [Here](Mockups/first-design.pdf)
+- Please find paper and pen mock up for the second and final design (explained in acknowledgements) [Here](Mockups/final-design.pdf)
+
 ## Features
 
 ### Existing Features
