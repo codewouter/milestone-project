@@ -52,6 +52,10 @@ h5 {
     padding: 30px;
 }
 
+.section {
+    padding: 50px;
+}
+
 /*--------------------------------------------Heading*/
 
 .navbar {
@@ -84,7 +88,6 @@ h5 {
 
 .navbar-default .navbar-nav li a:hover {
     color: #5d33ce;
-    border-bottom: solid;
     transition: all 0.50s ease-in-out;
     -moz-transition: all 0.50s ease-in-out;
     -webkit-transition: all 0.50s ease-in-out;
@@ -111,11 +114,16 @@ h5 {
 
 .hvr-sweep-to-right:after {
     background-color: #000000;
-    color: #f0ffff;
+    color: orange;
     border-color: #000000;
     display: block;
     text-align: center;
 }
+
+.ticket-country:hover, .uppercase:hover {
+    color: #fff;
+    transition: color 1s ease-in-out;
+} 
 
 button[type="submit"]:hover {
     background-color: #a0a0a0;
@@ -172,17 +180,10 @@ footer {
 /*--------------------------------------------About Main*/
 
 .bandmembers {
-    display: inline-block;
-    text-align: center;
-}
-
-.membernames {
-    display: inline-block;
+    margin: 15px 0;
 }
 
 .musicvideo video {
-    padding-top: 20px;
-    padding-bottom: 40px;
     width: 70%;   
     display: block;
     margin-left: auto;
@@ -250,6 +251,12 @@ footer {
     text-align: center;
     margin: 20px;
     border: solid 1px;
+}
+
+.ticket-colourbck a: hover {
+    color: #fff;
+    transition: color 1s ease-in-out;
+    border: 1px solid #000;
 }
 
 .buytickets {

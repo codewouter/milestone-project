@@ -204,8 +204,8 @@ This website is for individuals interested in, are fans of and who want to know 
 
 ### Acknowledgements
 - Thank you to the tutors for helping me through the parts I needed assistance with
-- Thank you to my first mentor who gave me confidence in my first website design
-- Thank you to my new mentor who showed me and went through with me how a modern day website should look like and giving me the confidence to re deisign and shape my website
+- Thank you to my first mentor, Yoni Lavi, who gave me confidence in my first website design
+- Thank you to my new mentor, Antonija Simic, who showed me and went through with me how a modern day website should look like and giving me the confidence to re deisign and shape my website
     - Half way through my project I gained a new mentor due to my original mentor changing roles within The Code Institute
     - My new mentor talked through the design and we decided that I would make the website more modern looking
     - Therefore I would like to say thank you to Antonija Simic for inspriring my website design 
