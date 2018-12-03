@@ -50,7 +50,6 @@ h5 {
     background-color: #ffffff;
     color: #000000;
     padding: 30px;
-    text-align: center;
 }
 
 /*--------------------------------------------Heading*/
@@ -86,19 +85,36 @@ h5 {
 .navbar-default .navbar-nav li a:hover {
     color: #5d33ce;
     border-bottom: solid;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
 }
 
 
 .foothover:hover {
     color: #5d33ce;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+}
+
+.hvr-sweep-to-right:before {
+    background-color: #000000;
+    color: #000000;
+    border-color: #000000;
+    display: block;
+    text-align: center;
+    transition: 1s ease-in-out;
+}
+
+.hvr-sweep-to-right:after {
+    background-color: #000000;
+    color: #f0ffff;
+    border-color: #000000;
+    display: block;
+    text-align: center;
 }
 
 button[type="submit"]:hover {
@@ -238,23 +254,6 @@ footer {
 
 .buytickets {
     padding-top: 10px;
-}
-
-.hvr-sweep-to-right:before {
-    background-color: #000000;
-    color: #000000;
-    border-color: #000000;
-    display: block;
-    text-align: center;
-    transition: 1s ease-in-out;
-}
-
-.hvr-sweep-to-right:after {
-    background-color: #000000;
-    color: #f0ffff;
-    border-color: #000000;
-    display: block;
-    text-align: center;
 }
 
 /*--------------------------------------------Gallery*/
