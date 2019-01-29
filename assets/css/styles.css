@@ -157,6 +157,7 @@ footer {
 
 .bandmembers {
     margin: 15px 0;
+    padding: 30px;
 }
 
 .musicvideo video {
@@ -256,7 +257,7 @@ footer {
 }
 
 .gallery-photo img {
-    margin: 20px 10px 60px 5px;
+    margin: 15px;
     text-align: center;
     -webkit-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
@@ -265,7 +266,6 @@ footer {
     -moz-transition: all.5s ease-in-out;
     -webkit-transition: all.5s ease-in-out;
 }
-
 
 /*--------------------------------------------Contact*/
 

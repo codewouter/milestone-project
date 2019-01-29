@@ -3,7 +3,7 @@
 ## The 1975 Website
 My project focuses on the popular rock band, The 1975. This website is for fans of theirs who like to keep up with their tour dates, latest music and easy access to their social medias. The website also caters to companies and venues who would like to see where they are touring and possibly book them. 
 
-My project has its opening page where it briefly describes the bands history and what they are all about, while also showing the members of the band. This is crucial as visually seeing who you will be engaging with is very important and brings it to a personal level. The second menu item brings fans and potential bookers to the touring timeline of the 1975, which enables them to see when and where the band will be playing for the foreseeable future. I have also enabled a feature to allow fans to be directed to the ticket selling websites for each arena so they can purchase tickets to see the band live. The following menu item allows for individuals to listen to some of the bands popular hits and see photos of them live in action. The last menu item allows for companies and venues to contact the band for bookings and shows. It also has a section for fans, allowing them to have easy access to the bands verified username on their social medias and subsequently, links to the bands direct social media pages. 
+My project has its opening page where it briefly describes the bands history and what they are all about, while also showing the members of the band. This is crucial as visually seeing who you will be engaging with is very important and brings it to a personal level. The second menu item brings fans and potential bookers to the touring timeline of the 1975, which enables them to see when and where the band will be playing for the foreseeable future. I have also enabled a feature to allow fans to be directed to the ticket selling websites for each arena so they can purchase tickets to see the band live. The following menu item allows for individuals to listen to some of the bands popular hits and see photos of them live in action. The last menu item allows for companies and venues to contact the band for bookings and shows. 
 
 ## UX
 This website is for individuals interested in, are fans of and who want to know more about the 1975. This website allows these individuals to see what dates and where the band is touring, as well as links to buy tickets to these events. The website also provides popular songs, photos of the band, direct links to their verified social media links and a contact page. The contact page is more for companies and venues who would like to book The 1975 to play. The website caters to these individuals as well because it allows the companies and venues to see who is in the band, information about them and music for them to sample.  
@@ -15,7 +15,7 @@ This website is for individuals interested in, are fans of and who want to know 
 - As a possible employer I would like to see when they are touring and where they will be so that I can book them to play at my venue
 - As a new fan I want to listen to their popular songs and watch videos on them to learn more about them and their style
 - As a possible employer I want to listen to the genre of music they produce so that I can potentially book them for my venue
-- As a fan I want to know what their real social media pages are so that I can follow their live updates and tag them in photos I take when I attend their concerts
+- As a fan I want to know what their social media pages are so that I can follow their live updates and tag them in photos I take when I attend their concerts
 
 ### Mockups
 - Please find paper and pen mockup for the original first design [Here](Mockups/first-design.pdf)
@@ -30,6 +30,8 @@ This website is for individuals interested in, are fans of and who want to know 
     - Music video and photos of the band members for users to view in case they are not familiar with the band or type of music
 - Information on the band
     - Information about the band readily accessible
+- Photos of band members
+    - Allows users to see who they are listening to and connect more deeply with the band
 - A music video
     - Allows users to listen to the music of the band by pressing play
 
@@ -53,7 +55,7 @@ This website is for individuals interested in, are fans of and who want to know 
 ### Features to be Implemented in the Future
 - Javascript
     - To link up the contact form for it to work correctly once I have learnt it
-    - To have an alert that says "thank you for submitting your form" without over writing the required fields
+    - To have an alert that says "thank you for submitting your form" without over writing the 'required fields' popup
     - To create a lightbox for the photos on the gallery.html page
 
 ### Features Left to Implement
@@ -126,7 +128,7 @@ This website is for individuals interested in, are fans of and who want to know 
         - Click "Book Us Now" link on each page and make sure it leads to contact.html 
         - Make sure you can get other places easily from that page
     - Social Media Links
-        -  Click each link to make sure they open in another page due to the target="_blank"
+        - Click each link to make sure they open in another page due to the target="_blank"
         - Make sure each link correlates to the correct social media platform
 
 #### Mobile Responsive 
