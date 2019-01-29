@@ -94,7 +94,6 @@ h5 {
     -o-transition: all 0.50s ease-in-out;
 }
 
-
 .foothover:hover {
     color: #5d33ce;
     transition: all 0.50s ease-in-out;
@@ -102,28 +101,6 @@ h5 {
     -webkit-transition: all 0.50s ease-in-out;
     -o-transition: all 0.50s ease-in-out;
 }
-
-.hvr-sweep-to-right:before {
-    background-color: #000000;
-    color: #000000;
-    border-color: #000000;
-    display: block;
-    text-align: center;
-    transition: 1s ease-in-out;
-}
-
-.hvr-sweep-to-right:after {
-    background-color: #000000;
-    color: orange;
-    border-color: #000000;
-    display: block;
-    text-align: center;
-}
-
-.ticket-country:hover, .buying:hover {
-    color: #fff;
-    transition: color 1s ease-in-out;
-} 
 
 button[type="submit"]:hover {
     background-color: #a0a0a0;
@@ -225,21 +202,32 @@ footer {
 
 .ticket-colourbck a {
     background-color: #ffffff;
-    position: relative;
     color: #000000;
-    display: block;
-    border-color: #000000;
-    padding: 0.3px;
-    text-align: center;
-    margin: 20px;
-    border: solid 1px;
+    width: 100%;
 }
 
-.ticket-colourbck a: hover {
-    color: #fff;
-    transition: color 1s ease-in-out;
-    border: 1px solid #000;
+.ticket-colourbck {
+    color: #000000;
+    border-color: #000000;
+    border: solid 1px;
+    margin: 10px;
+    text-align: center;
 }
+
+.hvr-sweep-to-right:before {
+    color: #000000;
+    background-color: #000000;
+    border-color: #000000;
+    border: solid 1px;
+    transition: ease-in-out 1s;
+}
+
+.hvr-sweep-to-right:after {
+    color: #000000;
+    background-color: #000000;
+    transition: ease-in-out 0.35s;
+}
+
 /*--------------------------------------------Gallery*/
 
 .gallery {
@@ -256,7 +244,7 @@ footer {
 }
 
 .audioclips {
-    padding: 10px;
+    padding-top: 15px;
 }
 
 .audioclips p {
@@ -268,9 +256,8 @@ footer {
 }
 
 .gallery-photo img {
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
+    margin: 20px 10px 60px 5px;
+    text-align: center;
     -webkit-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
     box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
@@ -279,9 +266,6 @@ footer {
     -webkit-transition: all.5s ease-in-out;
 }
 
-.bandimages {
-    text-align: center;
-}
 
 /*--------------------------------------------Contact*/
 
