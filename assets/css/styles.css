@@ -102,6 +102,20 @@ h5 {
     -o-transition: all 0.50s ease-in-out;
 }
 
+.hvr-sweep-to-right:before {
+    color: #000000;
+    background-color: #000000;
+    border-color: #000000;
+    border: solid 1px;
+    transition: ease-in-out 1s;
+}
+
+.hvr-sweep-to-right:after {
+    color: #000000;
+    background-color: #000000;
+    transition: ease-in-out 0.35s;
+}
+
 button[type="submit"]:hover {
     background-color: #a0a0a0;
     transition: all 0.35s ease-in-out;
@@ -113,28 +127,28 @@ button[type="submit"]:hover {
 /*--------------------------------------------Footer*/
 
 footer {
-    left: 0;
-    bottom: 0;
     width: 100%;
-    text-align: center;
     background-color: #000000;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .footer-info ul li a {
     font-family: "Exo", sans-serif;
     font-weight: 500;
-    font-size: 13px;
-    display: block;
+    font-size: 18px;
     color: #fafafa;
-    margin-top: 30px;
-    letter-spacing: 50px;
-    text-align: center;
+    letter-spacing: 30px;
+    padding-top: 10px;
 }
 
+.list-inline { 
+    text-align: center;
+    padding-top: 10px;
+}
 
 .bookus {
     color: #fafafa;
-    margin-top: 30px;
     text-align: center;
     font-weight: 500;
 }
@@ -212,20 +226,6 @@ footer {
     border: solid 1px;
     margin: 10px;
     text-align: center;
-}
-
-.hvr-sweep-to-right:before {
-    color: #000000;
-    background-color: #000000;
-    border-color: #000000;
-    border: solid 1px;
-    transition: ease-in-out 1s;
-}
-
-.hvr-sweep-to-right:after {
-    color: #000000;
-    background-color: #000000;
-    transition: ease-in-out 0.35s;
 }
 
 /*--------------------------------------------Gallery*/
@@ -306,8 +306,7 @@ textarea.form-control {
 }
 
 button[type="submit"] {
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin: 5px 5px 20px 5px;
     background-color: #5d33ce;
     color: #fafafa;
     width: 100%;
