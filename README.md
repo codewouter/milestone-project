@@ -152,6 +152,7 @@ This website is for individuals interested in, are fans of and who want to know 
     - This was difficult for me as when I created it the first time it did not go as smoothly as I would have liked it to. To correct this, I re watched the lesson on it and understood more of what I had to do as I was leaving out some key CSS styles 
 
 ## Deployment
+- To deploy my project I created an account on GitHub and made a new repository called "milestone-project". I then proceeded to deployed my project to my GitHub via the push origin master method. This was done each time edits were made to my code and I needed to save them. Please find my [GitHub here](https://github.com/ananyasitlani/milestone-project)
 
 ## Credits
 
