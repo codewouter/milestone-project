@@ -63,7 +63,7 @@ This website is for individuals interested in, are fans of and who want to know 
 
 ## Tech Used
 - HTML
-    - This was used to make the base language to create the website
+    - This was used to create the markupl
 - CSS
     - milestone-project/assets/css/styles.css
         - This was used to style the elements of the HTML code
@@ -88,7 +88,7 @@ This website is for individuals interested in, are fans of and who want to know 
 ## Testing
 
 #### Overall
-- I tested out some designs in a workspace that I cloned from this milestone project and ended up copying and pasting some of that code over for some aspects of my submitted project. [This repository can be found here](https://github.com/ananyasitlani/milestone-project-cloned)
+I tested out some designs in a workspace that I cloned from this milestone project and ended up copying and pasting some of that code over for some aspects of my submitted project. [This repository can be found here](https://github.com/ananyasitlani/milestone-project-cloned)
 
 #### index.html
 - Video
@@ -152,7 +152,7 @@ This website is for individuals interested in, are fans of and who want to know 
     - This was difficult for me as when I created it the first time it did not go as smoothly as I would have liked it to. To correct this, I re watched the lesson on it and understood more of what I had to do as I was leaving out some key CSS styles 
 
 ## Deployment
-- To deploy my project I created an account on GitHub and made a new repository called "milestone-project". I then proceeded to deployed my project to my GitHub via the push origin master method. This was done each time edits were made to my code and I needed to save them. Please find my [GitHub here](https://github.com/ananyasitlani/milestone-project)
+To deploy my project I pushed my Cloud9 workspace to my Github repository named milestone-project via the command line. This was done each time edits were made to my code and I needed to save them. Please find my [GitHub here](https://github.com/ananyasitlani/milestone-project). To create mmy GitHub page I built it from the Master branch.
 
 ## Credits
 
