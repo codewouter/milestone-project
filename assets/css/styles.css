@@ -35,10 +35,7 @@ h5 {
     text-align: center;
 }
 
-.members,
-.timelinebackground,
-.audio,
-.contact-background {
+.wall-background {
     background: url(../../assets/images/textured-wall.jpg) no-repeat center center fixed; 
     padding: 20px;
 }
@@ -127,7 +124,6 @@ button[type="submit"]:hover {
 /*--------------------------------------------Footer*/
 
 footer {
-    width: 100%;
     background-color: #000000;
     padding-bottom: 15px;
     padding-top: 15px;
