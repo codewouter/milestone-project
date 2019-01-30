@@ -66,17 +66,17 @@ This website is for individuals interested in, are fans of and who want to know 
     - This was used to make the base language to create the website
 - CSS
     - milestone-project/assets/css/styles.css
-    - This was used to style the elements of the HTML code
+        - This was used to style the elements of the HTML code
 - Bootstrap 
     - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css   
-    - This was used to help style the website and with the grid layout of it
+        - This was used to help style the website and with the grid layout of it
 - Font Awesome
     - https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i
     - https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
-    - This was used to create a universal font for the website
+        - This was used to create a universal font for the website
 - Hover
     - https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css
-    - This was used to have the hover styles run smoothly
+        - This was used to have the hover styles run smoothly
 - Box Shadow Generator
     - A [box shadow generator](https://cssmatic.com/box-shadow) to create the shadowing behind the images on gallery.html
 - Validators

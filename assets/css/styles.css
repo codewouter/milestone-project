@@ -152,8 +152,11 @@ footer {
 /*--------------------------------------------About Main*/
 
 .bandmembers {
-    margin: 0 auto;
     padding: 30px;
+}
+
+.bandmembers img {
+    margin: auto;
 }
 
 .musicvideo video {
