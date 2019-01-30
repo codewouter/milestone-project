@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*--------------------------------------------General*/
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .ui-menu-color-home,
 .ui-menu-color-music,
 .ui-menu-color-tour-dates,
@@ -229,13 +234,10 @@ footer {
 
 /*--------------------------------------------Gallery*/
 
-.gallery {
-    padding: 30px;
-}
-
 .gallery-photo {
     background-color: #ffffff;
 }
+
 .audio {
     text-align: center;
     padding-bottom: 50px;
@@ -254,7 +256,7 @@ footer {
     color: #ffffff;
 }
 
-.gallery-photo img {
+.bandimages img {
     margin: 15px;
     text-align: center;
     -webkit-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
@@ -315,5 +317,18 @@ button[type="submit"] {
 @media (max-width:414px) {
 .tourtimeline {
     padding-left: 50px;
+}
+}
+
+@media (max-width: 320px) {
+.bandimages img {
+    margin: auto;
+    text-align: center;
+    -webkit-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
+    transition: all.5s ease-in-out;
+    -moz-transition: all.5s ease-in-out;
+    -webkit-transition: all.5s ease-in-out;
 }
 }
