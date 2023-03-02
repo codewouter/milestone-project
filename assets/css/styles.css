@@ -42,7 +42,7 @@ h5 {
 
 .wall-background {
     background: url(../../assets/images/textured-wall.jpg) no-repeat center center fixed; 
-    padding: 20px;
+    padding: 30px;
 }
 
 .information-container {
@@ -156,24 +156,6 @@ footer {
 
 /*--------------------------------------------About Main*/
 
-.bandmembers {
-    padding: 30px;
-}
-
-.bandmembers img {
-    margin: auto;
-}
-
-.musicvideo video {
-    width: 70%;   
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.video {
-    background-color: #ffffff;
-}
 
 /*--------------------------------------------Tour Dates*/
 
